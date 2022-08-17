@@ -1,0 +1,13 @@
+.header {
+    background-color: #1F2937;
+    display: flex;
+    color: #f9faf8;
+    
+}
+
+.hero {
+    background-color: #1F2937;
+    font-weight: bolder;
+    color: #f9faf8;
+    display: flex;
+}
