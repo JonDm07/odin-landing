@@ -1,5 +1,4 @@
 * {
-    border: solid red 1px;
     padding: 0px;
     margin: 0px;
 }
@@ -149,6 +148,48 @@
 .quote p {
     display: flex;
     justify-content: flex-end;
+}
+
+.container {
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.action {
+    padding: 48px 72px;
+    background-color: #3882f6;
+    color: #E5E7EB;
+    flex-direction: row;
+    display: flex;
+    gap: 250px;
+    border-radius: 10px;
+}
+
+.action button {
+    color: #E5E7EB;
+    background-color: #3882f6;
+    width: 100px;
+    height: 25px;
+    border-radius: 5px;
+    border: #E5E7EB solid 2px;
+    align-self: center;
+    
+
+}
+
+.call strong {
+    font-size: 20px;
+}
+
+.footer {
+    margin-top: auto;
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    background-color: #1F2937;
+    color: #E5E7EB;
 }
 
 
